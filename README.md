@@ -6,12 +6,14 @@ Now your data is safe on the cloud storage
 
 # Project Structure
 ```
-DriveSyncApp/
+FileSyncApp/
 │
-├── credentials.json
-├── main.py
-├── auth.py
-├── sync.py
-└── requirements.txt
+├── credentials.json       # Google API credentials file
+├── token.pickle           # Token file generated after authentication
+├── main.py                # Main script to start the application
+├── auth.py                # Authentication logic
+├── sync.py                # Sync logic and file monitoring
+├── README.md              # Project documentation
+└── requirements.txt       # Python dependencies
 ```
 # Steps to use this app
