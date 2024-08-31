@@ -1,0 +1,7 @@
+google-auth
+google-auth-oauthlib~=1.2.1
+google-auth-httplib2
+google-api-python-client~=2.143.0
+watchdog~=5.0.0
+
+protobuf~=5.28.0
