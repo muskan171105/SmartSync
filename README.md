@@ -2,13 +2,13 @@
 ```
 DriveSyncApp/
 │
-├── credentials.json       # Google API credentials file
-├── token.pickle           # Token file generated after authentication
-├── main.py                # Main script to start the application
-├── auth.py                # Authentication logic
-├── sync.py                # Sync logic and file monitoring
 ├── README.md              # Project documentation
-└── requirements.txt       # Python dependencies
+├── auth.py                # Authentication logic
+├── credentials.json       # Google API credentials file
+├── main.py                # Main script to start the application
+├── requirements.txt       # Python dependencies
+├── sync.py                # Sync logic and file monitoring
+└── token.pickle           # Token file generated after authentication
 ```
 
 # Syncmate
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### Setup Google API Credentials
 
-1. Go to the [Google Cloud Console](https://console.cloud.google.com/).
+1. Go to the Google Cloud Console (https://console.cloud.google.com/).
 2. Create a new project or select an existing one.
 3. Enable the Google Drive API for your project.
 4. Create OAuth 2.0 credentials (client ID and client secret).
