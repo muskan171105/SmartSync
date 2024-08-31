@@ -6,7 +6,7 @@ Now your data is safe on the cloud storage
 
 # Project Structure
 ```
-FileSyncApp/
+DriveSyncApp/
 │
 ├── credentials.json       # Google API credentials file
 ├── token.pickle           # Token file generated after authentication
