@@ -2,6 +2,7 @@
 ```
 DriveSyncApp/
 │
+├── LICENSE                # GitHub License
 ├── README.md              # Project documentation
 ├── auth.py                # Authentication logic
 ├── credentials.json       # Google API credentials file
